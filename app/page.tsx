@@ -14,7 +14,6 @@ import {
 } from "../types/constants";
 import { z } from "zod";
 import { RenderControls } from "../components/RenderControls";
-import { Tips } from "../components/Tips/Tips";
 import { Spacing } from "../components/Spacing";
 
 const container: React.CSSProperties = {
@@ -70,7 +69,7 @@ const Home: NextPage = () => {
         <Spacing></Spacing>
         <Spacing></Spacing>
         <Spacing></Spacing>
-        <Tips></Tips>
+        {/* <Tips></Tips> */}
       </div>
     </div>
   );
